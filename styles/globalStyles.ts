@@ -3,11 +3,11 @@ import {normalize} from 'stitches-normalize-css';
 
 export const globalStyles = globalCss(...normalize, {
   '@font-face ': {
-    fontFamily: '', // set font
+    fontFamily: 'Inter', // set font
     fontStyle: 'normal',
     fontWeight: '100 900',
     fontDisplay: 'optional',
-    src: 'url("/fonts/") format("woff2")',
+    src: 'url("/fonts/inter-var-latin.woff2") format("woff2")',
   },
 
   html: {
@@ -28,6 +28,7 @@ export const globalStyles = globalCss(...normalize, {
 
   img: {
     maxWidth: '100%',
+    // transition : '1000ms'
   },
 
   body: {

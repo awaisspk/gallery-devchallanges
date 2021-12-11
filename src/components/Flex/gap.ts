@@ -1,5 +1,5 @@
 import type * as Stitches from '@stitches/react';
-import {css, config} from '@stitches';
+import {config} from '@stitches';
 
 type TCSS = Stitches.CSS<typeof config>;
 
